@@ -1,0 +1,9 @@
+-
+  ros1_package_name: 'ros1_unification_2019'
+  ros1_message_name: 'UpdaterUniToSP'
+  ros2_package_name: 'unification_ros2_messages'
+  ros2_message_name: 'UpdaterUniToSP'
+  fields_1_to_2:
+    joints_pose_list: 'joints_pose_list'
+    tcp_pose_list: 'tcp_pose_list'
+

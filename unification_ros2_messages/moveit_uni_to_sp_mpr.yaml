@@ -1,0 +1,17 @@
+-
+  ros1_package_name: 'ros1_unification_2019'
+  ros1_message_name: 'MoveItUniToSP'
+  ros2_package_name: 'unification_ros2_messages'
+  ros2_message_name: 'MoveItUniToSP'
+  fields_1_to_2:
+    ur_moveit_unidriver_got_msg_from_sp: 'ur_moveit_unidriver_got_msg_from_sp'
+    got_robot_type: 'got_robot_type'
+    got_move_type: 'got_move_type'
+    got_frame: 'got_frame'
+    got_speed_scaling: 'got_speed_scaling'
+    got_acc_scaling: 'got_acc_scaling'
+    got_should_plan: 'got_should_plan'
+    got_goal_tolerance: 'got_goal_tolerance'
+    got_ref_pos: 'got_ref_pos'
+    act_pos: 'act_pos'
+

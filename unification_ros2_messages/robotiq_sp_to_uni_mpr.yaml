@@ -1,0 +1,9 @@
+-
+  ros1_package_name: 'unification_roscontrol'
+  ros1_message_name: 'RobotiqSPToUni'
+  ros2_package_name: 'unification_ros2_messages'
+  ros2_message_name: 'RobotiqSPToUni'
+  fields_1_to_2:
+    cmd: 'cmd'
+    ref_pos: 'ref_pos'
+

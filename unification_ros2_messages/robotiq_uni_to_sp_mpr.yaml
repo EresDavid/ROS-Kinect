@@ -1,0 +1,10 @@
+-
+  ros1_package_name: 'unification_roscontrol'
+  ros1_message_name: 'RobotiqUniToSP'
+  ros2_package_name: 'unification_ros2_messages'
+  ros2_message_name: 'RobotiqUniToSP'
+  fields_1_to_2:
+    got_cmd: 'got_cmd'
+    got_ref_pos: 'got_ref_pos'
+    act_pos: 'act_pos'
+
