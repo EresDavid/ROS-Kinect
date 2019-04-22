@@ -5,9 +5,4 @@ The main idea of this project is to use some sort of camera vision to constantly
 
 The coordinates are put in a hierarchy: first the coordinates of a single tracked joint are collected into a message called JointPosition, which is then nested into HumanJoints, a collection of all existing joint positions for a single body together with the body id. The Kinect sensor has the capability of tracking up to 6 bodies in its Field Of View, so to simplify the process of publishing the data, a third level is added which collects all the tracked bodies into a single message called KinectHumans, which is then published to a node, and can be used for further processing and manipulation depending on the intended use case. 
 
-This is only a tiny contribution to a much greater research project done by Ph.D. students on the Chalmers University of Technology, if you’re interested in more ROS content and the whole project, go to the following links: 
-
-Endre Erős, M.Sc.: https://github.com/endre90
-Martin Dahl, M.Sc.: https://github.com/m-dahl
-
 Link for the driver and API: https://github.com/Kinect
